@@ -26,7 +26,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String helloOpenShift(){
-		return "Burak Yeşilbağ dan selamlar :D :D :D ";
+		return "Burak Yeşilbağ dan selamlar :D :D :D - Alekum Selam .. S.P";
 	}
 
 	@GetMapping("/{searchRequest}")
